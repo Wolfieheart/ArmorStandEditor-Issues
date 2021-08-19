@@ -1,5 +1,6 @@
 name: Behavior Bug or other issue
 description: Report issues with the plugin or other behavior related issues.
+labels: "P1: To Be Tested"
 body:
   - type: markdown
     attributes:
@@ -29,6 +30,18 @@ body:
     attributes:
       label: Plugin list
       description: All plugins running on the server.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Plugin Version
+      description: What version of the Plugin are you using for this?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Server Version
+      description: What Server Backend are you using? Put your output of /version ingame here
     validations:
       required: true
   - type: textarea
