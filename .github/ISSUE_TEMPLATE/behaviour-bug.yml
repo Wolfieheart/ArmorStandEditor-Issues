@@ -35,7 +35,7 @@ body:
   - type: textarea
     attributes:
       label: Plugin Version
-      description: What version of the Plugin are you using for this?
+      description: What version of the Plugin are you using for this? As of 1.18, you can get this via /ase version.
     validations:
       required: true
   - type: textarea
