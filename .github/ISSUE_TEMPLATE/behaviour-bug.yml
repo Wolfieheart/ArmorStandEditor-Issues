@@ -1,6 +1,7 @@
 name: Behavior Bug or other issue
 description: Report issues with the plugin or other behavior related issues.
 labels: "P1: To Be Tested"
+title: "[Bug]: "
 body:
   - type: markdown
     attributes:
